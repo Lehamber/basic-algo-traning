@@ -48,9 +48,9 @@ class MaxRootHeap {
 }
 
 
-const toMaxRootHeap = (nums) => {
+const toMaxRootHeap = (nums, k) => {
 
-  for (let i = 1; i < nums.length; i++) {
+  for (let i = 1; i < k; i++) {
     let j = i;
     while (j > 0) {
       const parentIndex = Math.ceil(j / 2) - 1;
@@ -85,15 +85,15 @@ const removeMatRoot = (nums, l, r) => {
 }
  
 const arr = [6, 2, 4, 1, 5, 7, 3]
-toMaxRootHeap(arr);
+toMaxRootHeap(arr, 5);
 
 // for (let i = 0; i < arr.length; i++) {
   // removeMatRoot(arr, 0, i);
 // }
 
-for (let i = arr.length - 1; i > 0; i--) {
-  removeMatRoot(arr, 0, i);
-}
+// for (let i = arr.length - 1; i > 0; i--) {
+//   removeMatRoot(arr, 0, i);
+// }
 
 console.log('liu arr:', arr);
 
