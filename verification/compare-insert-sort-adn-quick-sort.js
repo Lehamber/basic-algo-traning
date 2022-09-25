@@ -1,3 +1,5 @@
+// 1、验证插入排序和快速排序算法，在数据量不同时的速度
+
 function genRandomIntArr(size, range = [1, 100]) {
   const arr = []
   for(let i = 0; i < size; i++) {
