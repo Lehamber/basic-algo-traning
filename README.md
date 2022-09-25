@@ -1,6 +1,6 @@
 # 基础算法自测验
 ## 排序算法
-冒泡、选择、插入、归并、快速、堆、希尔、
+冒泡、选择、插入、归并、快速、堆、希尔。
 
 ![image](https://user-images.githubusercontent.com/54530132/192134982-eda74ccf-59c1-440d-9eb6-d229a726d5a5.png)
 
